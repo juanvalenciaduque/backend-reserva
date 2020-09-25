@@ -42,18 +42,18 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', '127.0.0.1'),
+            'host' => env('DB_HOST', '172.21.100.9'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
+            'database' => env('DB_DATABASE', 'laravel_prod'),
+            'username' => env('DB_USERNAME', 'user_laravel'),
+            'password' => env('DB_PASSWORD', 'reservas'),
             'unix_socket' => '/Applications/MAMP/tmp/mysql/mysql.sock',
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
             'prefix' => '',
             'prefix_indexes' => true,
             'strict' => true,
-            'engine' => null,
+            'engine' => 'InnoDB',
         ],
 
         'pgsql' => [

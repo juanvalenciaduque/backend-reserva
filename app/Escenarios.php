@@ -13,3 +13,4 @@ class Escenarios extends Model
         return $this->hasMany('App/Reserva');
     }
 }
+

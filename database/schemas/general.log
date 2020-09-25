@@ -1,0 +1,49 @@
+mysqld, Version: 5.7.31-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: (null)
+Time                 Id Command    Argument
+mysqld, Version: 5.7.31-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: (null)
+Time                 Id Command    Argument
+mysqld, Version: 5.7.31-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: (null)
+Time                 Id Command    Argument
+mysqld, Version: 5.7.31-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: (null)
+Time                 Id Command    Argument
+mysqld, Version: 5.7.31-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: (null)
+Time                 Id Command    Argument
+2020-09-25T01:19:09.469721Z	    2 Connect	root@localhost on  using Socket
+2020-09-25T01:19:09.470138Z	    2 Connect	Access denied for user 'root'@'localhost' (using password: NO)
+2020-09-25T01:19:32.992878Z	    3 Connect	user_laravel@localhost on reservas using Socket
+2020-09-25T01:19:32.993614Z	    3 Init DB	Access denied for user 'user_laravel'@'%' to database 'reservas'
+2020-09-25T01:20:13.560761Z	    4 Connect	user_laravel@localhost on  using Socket
+2020-09-25T01:20:13.567957Z	    4 Query	select @@version_comment limit 1
+2020-09-25T01:20:43.998609Z	    4 Query	show databases
+2020-09-25T01:20:51.895699Z	    4 Query	SELECT DATABASE()
+2020-09-25T01:20:51.896604Z	    4 Init DB	Access denied for user 'user_laravel'@'%' to database 'laravel-prod'
+2020-09-25T01:20:53.950689Z	    4 Query	SELECT DATABASE()
+2020-09-25T01:20:53.951582Z	    4 Init DB	Access denied for user 'user_laravel'@'%' to database 'laravel-prod'
+2020-09-25T01:20:55.518275Z	    4 Query	SELECT DATABASE()
+2020-09-25T01:20:55.518823Z	    4 Init DB	Access denied for user 'user_laravel'@'%' to database 'laravel-prod'
+2020-09-25T01:20:56.590846Z	    4 Query	SELECT DATABASE()
+2020-09-25T01:20:56.591749Z	    4 Init DB	Access denied for user 'user_laravel'@'%' to database 'laravel-prod'
+2020-09-25T01:21:04.102284Z	    4 Query	SELECT DATABASE()
+2020-09-25T01:21:04.103171Z	    4 Init DB	laravel_prod
+2020-09-25T01:21:04.104278Z	    4 Query	show databases
+2020-09-25T01:21:04.105547Z	    4 Query	show tables
+2020-09-25T01:21:04.107656Z	    4 Field List	escenarios 
+2020-09-25T01:21:04.114482Z	    4 Field List	reserva 
+2020-09-25T01:21:04.117225Z	    4 Field List	users 
+2020-09-25T01:21:04.119879Z	    4 Field List	users_registered 
+2020-09-25T01:21:13.567233Z	    4 Query	select * from escenarios
+2020-09-25T01:23:28.591928Z	    4 Quit	
+mysqld, Version: 5.7.31-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: (null)
+Time                 Id Command    Argument
+mysqld, Version: 5.7.31-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: (null)
+Time                 Id Command    Argument
+mysqld, Version: 5.7.31-log (MySQL Community Server (GPL)). started with:
+Tcp port: 0  Unix socket: (null)
+Time                 Id Command    Argument
